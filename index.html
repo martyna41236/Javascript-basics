@@ -8,21 +8,23 @@
 	<title>JavaScript basics</title>
 	<link href="styles.css" rel="stylesheet"  type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,400i,700" rel="stylesheet"> 
+	<link href="/favicon.ico" type="image/x-icon" rel="icon" />
 </head>
 
 <body>
-<h1>
-	BMI calculator
-</h1>
-<form>
-	<input type = "number" name = "weight"  placeholder="Weight (kg)" id="weight"/>
-	<br />
-	<input type = "number" name = "height" placeholder="Height (cm)" id="height"/>
-	<br />
-	<input type = "button" name = "bmi" value = "Submit" onClick="BMIcalc()" />
-	<p id="result"></p>
- </form>
-
+	<section class="BMI calculator">
+		<h1>
+			BMI calculator
+		</h1>
+		<form>
+			<input type = "number" name = "weight"  placeholder="Weight (kg)" id="weight"/>
+			<br />
+			<input type = "number" name = "height" placeholder="Height (cm)" id="height"/>
+			<br />
+			<input type = "button" name = "bmi" value = "Submit" onClick="BMIcalc()" />
+			<p id="result"></p>
+		</form>
+	</section>
 
 <script src="js/main.js"></script>
 
