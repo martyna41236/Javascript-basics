@@ -15,11 +15,12 @@
 	BMI calculator
 </h1>
 <form>
-	<input type = "text" name = "weight"  placeholder="Weight"/>
-	<input type = "submit" value = "Submit" />
+	<input type = "number" name = "weight"  placeholder="Weight (kg)" id="weight"/>
 	<br />
-	<input type = "text" name = "height" placeholder="Height"/>
-	<input type = "submit" value = "Submit" />
+	<input type = "number" name = "height" placeholder="Height (cm)" id="height"/>
+	<br />
+	<input type = "button" name = "bmi" value = "Submit" onClick="BMIcalc()" />
+	<p id="result"></p>
  </form>
 
 
