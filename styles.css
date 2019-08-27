@@ -1,0 +1,18 @@
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+input {
+	width: 200px;
+	border: solid 1px #FDC32F;
+	border-radius: 50px;
+	margin: 20px;
+	padding: 10px;
+	font-family: 'Ubuntu', sans-serif;
+	cursor: pointer;
+}
+
+h1 {
+    margin-left: 20px;
+}
